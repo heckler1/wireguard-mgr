@@ -102,6 +102,9 @@ net.ipv6.conf.all.forwarding=1
 EOF
     sysctl -p
   fi
+  
+  systemctl start wg-quick@wg0
+  systemctl enable wg-quick@wg0
 
 }
 
