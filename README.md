@@ -2,6 +2,8 @@
 
 This script simplifies and automates the creation of Wireguard servers and clients for a road-warrior style VPN configuration. It is intended to be run on the server system.
 
+`wireguard-mgr.sh` only supports Ubuntu 18.04.
+
 ## Usage
 
 ### `new-server`
